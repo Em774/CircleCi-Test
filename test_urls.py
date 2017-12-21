@@ -7,10 +7,10 @@ app_redirects = [
     (
         "Redirect HTTP to HTTPS",
         'http://uk.wegotpop.com/login',
-        # 'https://uk.wegotpop.com/login',
-        # 200,
-        # [
-        #     (301, 'http://uk.wegotpop.com/apply'),
+        'https://uk.wegotpop.com/login',
+        200,
+        [
+            (301, 'http://uk.wegotpop.com/apply'),
         ],
         {},
         []
